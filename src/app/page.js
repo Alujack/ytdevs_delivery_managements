@@ -8,8 +8,7 @@ export default function Home() {
 
       </main>
       <footer className="">
-        <h1>Hello world of cde</h1>
-
+        <h1>Hello world of abc</h1>
       </footer>
     </div>
   );

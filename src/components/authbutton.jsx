@@ -1,3 +1,4 @@
+"use client"
 import { signIn, signOut, useSession } from "next-auth/react";
 
 export default function AuthButtons() {
@@ -11,5 +12,5 @@ export default function AuthButtons() {
       </>
     );
   }
-  return <button onClick={() => signIn("google")}>Sign in with Google</button>;
+  return <button className="bg-black text-white" onClick={() => signIn("google")}>Sign in with Google</button>;
 }

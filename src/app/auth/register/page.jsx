@@ -34,7 +34,7 @@ const SignIn = () => {
         <img src="/images/YTDEvs_icon.png" alt="ytdev icon" /></div>
         <p className="text-sm">
           Have an account?{" "}
-          <Link href="/auth/signin" className="text-purple-600 font-semibold hover:underline">
+          <Link href="/auth/login" className="text-purple-600 font-semibold hover:underline">
             Sign In
           </Link>
         </p>

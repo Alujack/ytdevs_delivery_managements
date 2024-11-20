@@ -14,16 +14,16 @@ const EmailForm = () => {
       <p className="text-gray-500 text-sm mb-6 text-center">
         Enter your password to log in to your account
       </p>
-      <div className="w-4/5 mb-4">
+      <div className="max-w-[40em] w-4/5 mb-4">
         <label htmlFor="code" className="text-sm font-medium text-gray-700">Password</label>
         <input
           id="code"
           type="password"
-          className="w-full mt-1 border-b-2 border-black text-center outline-none focus:border-orange-500"
+          className="max-w-[40em] w-full mt-1 border-b-2 border-black text-center outline-none focus:border-orange-500"
           placeholder="Enter the password"
         />
       </div>
-      <button className="w-4/5 py-2 mt-4 bg-orange-500 text-white rounded-md font-semibold hover:bg-orange-600">
+      <button className="max-w-[40em] w-4/5 py-2 mt-4 bg-orange-500 text-white rounded-md font-semibold hover:bg-orange-600">
         Sign in
       </button>
 

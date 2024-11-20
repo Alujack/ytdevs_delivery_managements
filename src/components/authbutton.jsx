@@ -12,5 +12,5 @@ export default function AuthButtons() {
       </>
     );
   }
-  return <button className="bg-black text-white" onClick={() => signIn("google")}>Sign in with Google</button>;
+  return <button className="self-center bg-black text-white" onClick={() => signIn("google")}>Sign in with Google</button>;
 }
